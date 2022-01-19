@@ -145,3 +145,22 @@ p {
 .mainContainer div img {
     margin-top: 3rem;
     margin-left: 3rem; }
+
+.centerAtribution {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; }
+
+@media (min-width: 1240px) {
+.centerAtribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -2.5rem } }
+
+.centerAtribution p {
+    color: black;
+    text-align: center;
+}
