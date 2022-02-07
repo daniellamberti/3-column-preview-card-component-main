@@ -20,6 +20,12 @@ body {
     height: 36.5rem;
     margin-top: 10rem; } }
 
+h1 {
+    color: white;
+    font-size: 2rem;
+    margin-left: 3rem;
+    font-family: 'Big Shoulders Display' !important; }
+
 h2 {
     color: white;
     font-size: 2rem;
