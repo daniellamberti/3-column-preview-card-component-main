@@ -32,13 +32,13 @@ h2 {
     margin-left: 3rem;
     font-family: 'Big Shoulders Display' !important; }
 
-h3 {
+.h3 {
     font-size: .7rem;
     margin-left: 3rem;
     margin-bottom: 3rem; }
 
 p {
-    width: 68%;
+    width: 56%;
     color: rgba(255, 255, 255, 0.75);
     margin-left: 3rem;
     line-height: 1.7rem;
@@ -98,6 +98,12 @@ p {
     gap: 1.8rem;
     margin-top: 6rem; } }
 
+@media (min-width: 1240px) {
+.containerSuvs p {
+    width: 57%;
+    }
+}
+
 .containerLuxury {
     width: 100%;
     display: flex;
@@ -120,28 +126,39 @@ p {
     margin-right: 10rem;
     margin-bottom: 0px; } }
 
-.containerSedans h3 {
+
+.learnMore {
+    width: 45%;
+}
+
+.containerSedans .learnMore  {
     background-color: white;
     color: #e38826;
-    padding: 10px 15px 10px 15px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
     border-top-left-radius: 100% 300%;
     border-bottom-left-radius: 100% 300%;
     border-top-right-radius: 100% 300%;
-    border-bottom-right-radius: 100% 300%; }
+    border-bottom-right-radius: 100% 300%;
+    margin-bottom: 2rem; }
 
-.containerSuvs h3 {
+.containerSuvs .learnMore {
+    width: 44%;
     background-color: white;
     color: #006970;
-    padding: 10px 15px 10px 15px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
     border-top-left-radius: 100% 300%;
     border-bottom-left-radius: 100% 300%;
     border-top-right-radius: 100% 300%;
-    border-bottom-right-radius: 100% 300%; }
+    border-bottom-right-radius: 100% 300%;
+    margin-bottom: 2rem; }
 
-.containerLuxury h3 {
+.containerLuxury .learnMore {
     background-color: white;
     color: #004241;
-    padding: 10px 15px 10px 15px;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
     border-top-left-radius: 100% 300%;
     border-bottom-left-radius: 100% 300%;
     border-top-right-radius: 100% 300%;
@@ -152,21 +169,25 @@ p {
     margin-top: 3rem;
     margin-left: 3rem; }
 
-.centerAtribution {
+.centerAttribution {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center; }
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    gap: 0px; }
 
 @media (min-width: 1240px) {
-.centerAtribution {
+.centerAttribution {
+    width: 25%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     margin-top: -2.5rem } }
 
-.centerAtribution p {
+.centerAttribution p {
+    width: 100%;
+    font-size: .6rem;
     color: black;
     text-align: center;
-}
+    margin: 0px; }
